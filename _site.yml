@@ -3,6 +3,7 @@ title: "mfeo"
 description: |
   mfeo
 output_dir: "docs"
+theme: postcards.css
 navbar:
   right:
     - text: "Home"
