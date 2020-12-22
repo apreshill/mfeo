@@ -1,18 +1,20 @@
 ---
-title: "mfeo"
-description: |
-  Welcome to the website. I hope you enjoy it!
+title: "Alison Hill"
+image: "alison.jpg"
+links:
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/alisonpresmaneshill/"
+  - label: Twitter
+    url: "https://twitter.com/apreshill"
+  - label: GitHub
+    url: "https://github.com/apreshill"
+  - label: ORCID iD
+    url: "http://orcid.org/0000-0002-8082-1890"
 site: distill::distill_website
+output:
+  postcards::jolla
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-
-# Learn more about creating websites with Distill at:
-# https://rstudio.github.io/distill/website.html
-
-# Learn more about publishing to GitHub Pages at:
-# https://rstudio.github.io/distill/publish_website.html#github-pages
-
-```
-
+ 
+I am a classically trained data scientist living in the San Francisco Bay Area. 
+Currently I work on the Oculus team at Facebook. I love talking about baseball, 
+true crime podcasts, and causal inference.
