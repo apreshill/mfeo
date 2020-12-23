@@ -1,5 +1,6 @@
 ---
 title: "Alison Hill"
+description: "My personal postcard"
 image: "alison.jpg"
 links:
   - label: LinkedIn
