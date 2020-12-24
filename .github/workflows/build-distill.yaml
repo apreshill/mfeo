@@ -21,7 +21,7 @@ jobs:
           install.packages("remotes")
           remotes::install_github("rstudio/distill")
           remotes::install_github("rstudio/rmarkdown")
-          remotes::install_github("rstudio/postcards")
+          remotes::install_github("seankross/postcards")
         shell: Rscript {0}
 
       - name: Build Distill website
