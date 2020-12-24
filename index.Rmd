@@ -13,7 +13,7 @@ links:
     url: "http://orcid.org/0000-0002-8082-1890"
 site: distill::distill_website
 output:
-  postcards::jolla
+  postcards::trestles
 ---
  
 I am a classically trained data scientist living in the San Francisco Bay Area. 
