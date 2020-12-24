@@ -1,6 +1,6 @@
 on:
   push:
-    branches: add-gh-actions
+    branches: add-gh-action
 
 name: build-distill
 
