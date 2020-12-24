@@ -5,7 +5,7 @@ on:
 name: build-distill
 
 jobs:
-  pkgdown:
+  distill:
     runs-on: macOS-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
@@ -21,6 +21,7 @@ jobs:
           install.packages("remotes")
           remotes::install_github("rstudio/distill")
           remotes::install_github("rstudio/rmarkdown")
+          remotes::install_github("rstudio/postcards")
         shell: Rscript {0}
 
       - name: Build Distill website
