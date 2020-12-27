@@ -1,0 +1,5 @@
+Package: mfeo
+Title: Made for each other
+Encoding: UTF-8
+Imports: 
+    ggplot2
