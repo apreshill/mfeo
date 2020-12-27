@@ -6,14 +6,14 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\n\n\n\n\n\n\n",
-      "last_modified": "2020-12-27T10:23:07+00:00"
+      "last_modified": "2020-12-27T10:39:35+00:00"
     },
     {
       "path": "blog.html",
       "title": "Blog",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2020-12-27T10:23:07+00:00"
+      "last_modified": "2020-12-27T10:39:35+00:00"
     },
     {
       "path": "index.html",
@@ -21,7 +21,7 @@
       "description": "My personal postcard",
       "author": [],
       "contents": "\n\n          \n      \n      mfeo\n      \n      \n      Home\n      About\n      Blog\n      ☰\n      \n      \n      \n        \n          \n            \n              \n            \n              Alison Hill\n            \n            \n              \n                \n                    \n                      \n                        LinkedIn\n                      \n                    \n                  \n                                    \n                    \n                      \n                        Twitter\n                      \n                    \n                  \n                                    \n                    \n                      \n                        GitHub\n                      \n                    \n                  \n                                    \n                    \n                      \n                        ORCID iD\n                      \n                    \n                  \n                                  \n            \n          \n        \n        \n          \n            I am a classically trained data scientist living in the San Francisco Bay Area. Currently I work on the Oculus team at Facebook. I love talking about baseball, true crime podcasts, and causal inference.\n          \n        \n      \n    \n\n    \n      \n        \n          \n            \n              \n            \n              Alison Hill\n            \n            \n              \n                \n                                    \n                    \n                      LinkedIn\n                    \n                  \n                                    \n                    \n                      Twitter\n                    \n                  \n                                    \n                    \n                      GitHub\n                    \n                  \n                                    \n                    \n                      ORCID iD\n                    \n                  \n                                  \n              \n            \n            \n              I am a classically trained data scientist living in the San Francisco Bay Area. Currently I work on the Oculus team at Facebook. I love talking about baseball, true crime podcasts, and causal inference.\n            \n        \n      \n    \n\n    \n    \n    ",
-      "last_modified": "2020-12-27T10:23:08+00:00"
+      "last_modified": "2020-12-27T10:39:35+00:00"
     }
   ],
   "collections": ["posts/posts.json"]
