@@ -20,3 +20,9 @@ Distill is a publication format for scientific and technical writing, native to 
 Learn more about using Distill at <https://rstudio.github.io/distill>.
 
 
+```{r}
+library(ggplot2)
+ggplot(Orange, aes(x = age, y = circumference, colour = Tree)) +
+  geom_line()
+```
+
