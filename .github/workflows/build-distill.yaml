@@ -34,7 +34,9 @@ jobs:
         
       - name: Install dependencies
         run: |
-          remotes::install_deps(dependencies = TRUE)
+          depends <- readRDS(''.github/depends.Rds')
+          unique <- unique(depends$Package)
+          renv::install(unique)
           remotes::install_github("rstudio/distill")
           remotes::install_github("seankross/postcards")
         shell: Rscript {0}
