@@ -38,7 +38,7 @@ jobs:
           unique <- unique(depends$Package)
           renv::install(unique)
           remotes::install_github("rstudio/distill")
-          remotes::install_github("rstudio/postcards")
+          remotes::install_github("seankross/postcards")
         shell: Rscript {0}
         
       - name: Build Distill website
