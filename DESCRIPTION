@@ -2,4 +2,8 @@ Package: mfeo
 Title: Made for each other
 Encoding: UTF-8
 Imports: 
-    ggplot2
+    distill (>= 1.1),
+    postcards (>= 0.1.0)
+Remotes: 
+    rstudio/distill
+    seankross/postcards
