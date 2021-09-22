@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2021-04-04-testing/",
+    "title": "testing",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Alison",
+        "url": {}
+      }
+    ],
+    "date": "2021-04-04",
+    "categories": [],
+    "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill at https://rstudio.github.io/distill.\n\n\nsummary(Orange)\n\n\n#>  Tree       age         circumference  \n#>  3:7   Min.   : 118.0   Min.   : 30.0  \n#>  1:7   1st Qu.: 484.0   1st Qu.: 65.5  \n#>  5:7   Median :1004.0   Median :115.0  \n#>  2:7   Mean   : 922.1   Mean   :115.9  \n#>  4:7   3rd Qu.:1372.0   3rd Qu.:161.5  \n#>        Max.   :1582.0   Max.   :214.0\n\n\n\nlibrary(ggplot2)\nggplot(Orange, aes(x = age, \n                   y = circumference, \n                   color = Tree)) +\n  geom_point() +\n  geom_line() +\n  guides(color = FALSE) +\n  theme_bw()\n\n\n\n\n\n\n\n",
+    "preview": "posts/2021-04-04-testing/testing_files/figure-html5/unnamed-chunk-2-1.png",
+    "last_modified": "2021-05-08T06:01:16-07:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2020-12-22-welcome/",
     "title": "welcome",
     "description": "A short description of the post.",
@@ -13,7 +30,7 @@
     "categories": [],
     "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill at https://rstudio.github.io/distill.\n\n\n\n",
     "preview": {},
-    "last_modified": "2020-12-22T10:19:52-05:00",
+    "last_modified": "2021-01-29T15:10:26-08:00",
     "input_file": {}
   }
 ]
